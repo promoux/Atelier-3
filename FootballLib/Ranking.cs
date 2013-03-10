@@ -66,8 +66,7 @@ namespace FootballLib
 
             public FootballLib.PointSystem.ITotal Points
             {
-                    get { return this.points; }
-         
+                 get { return this.points; }       
             }
 
             #region IComparable Membres

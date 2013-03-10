@@ -20,7 +20,7 @@ namespace FootballLib
             this.points = m.HomeGoals - m.AwayGoals;
         }
 
-        public void Increment(PointSystem.ITotal with)
+        public virtual void Increment(PointSystem.ITotal with)
         {
             this.points += ((PointSystemMock)with).points;
         }
@@ -29,5 +29,11 @@ namespace FootballLib
         {
             return this.points - ((PointSystemMock)obj).points;
         }
+        
+        public override string ToString()
+        {
+            return "Points : " + points ;
+        }
+
     }
 }

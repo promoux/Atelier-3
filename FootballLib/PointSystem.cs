@@ -8,7 +8,7 @@ namespace FootballLib
 {
     public abstract class PointSystem
     {
-        public ITotal InitialPoints
+        public virtual ITotal InitialPoints
         {
             get
             {
