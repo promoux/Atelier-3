@@ -30,7 +30,6 @@ namespace FootballLib
             _clubAway = clubAway;
             _isHomeForfeit = isHomeForfeit;
             _isAwayForfeit = !isHomeForfeit;
-
         }
 
         public Club Away
